@@ -1,3 +1,7 @@
-# Pfsense-captive-portal
-Este é um formulario responsivo para Captive Portal no PFsense.
-Sinta-se livre para baixar e alterar como quiser,
+# INSTRUÇÕES:
+Basta alterar os arquivos **.HTML** e **.CSS** de acordo com o necessitado e subir os arquivos para pasta:
+
+```bash
+/usr/local/captiveportal/
+```
+## Obs: Não é necessaria a alteração do arquivo *index.php*
