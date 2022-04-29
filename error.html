@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<title>Hotspot Satt Tecnologia</title>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <script src="css/jquery-1.10.1.min.js" type="text/javascript"></script>
+		<script src="css/bootstrap.min.js" type="text/javascript"></script>
+		<script src="css/jquery.validate.min.js" type="text/javascript"></script>
+		<script src="css/jquery.backstretch.min.js" type="text/javascript"></script>
+    	<script type="text/javascript" src="css/select2.min.js"></script>
+		<script src="css/app.js" type="text/javascript"></script>
+		<script src="css/login-soft.js" type="text/javascript"></script>      
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
+</head>
+<body>
+	
+				 <!-----start-main---->
+				<div class="login-form">
+					<div class="head">
+						<img src="images/Satt_004.png" alt=""/>
+						
+					</div>
+					<form method="post" action="$PORTAL_ACTION$">
+						<li>
+							<input name="auth_user" type="text" class="text" value="Usuário" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Usuário';}" ><a href="#" class=" icon user"></a>
+						</li>
+						<li>
+							<input name="auth_pass" type="password" value="Senha" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Senha';}"><a href="#" class=" icon lock"></a>
+							</li>	
+							<li>
+							<input name="auth_voucher" type="text" value="Código Voucher"onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Código Voucher';}"><a href="#">
+							</li>
+							<input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
+						<div class="p-container">
+									<input name="accept" type="submit" value="Entrar" onClick="myFunction()" >
+								<div class="clear"> </div>
+								<br>
+								<p align="Center">CÓDIGO VOUCHER INVÁLIDO</p>
+					</div>
+				</form>
+			</div>
+			<!--End-login-form-->
+		  <!-----start-copyright---->
+   					<div class="copy-right">
+						<p>2022 &copy; <a href="https://github.com/TSChaves">By Thiago Chaves</a></p> 
+					</div>
+				<!-----//end-copyright---->
+                <script>
+				jQuery(document).ready(function() {     
+		  		App.init();
+		  		Login.init();
+				});
+				</script>
+		 		
+</body>
+</html>
